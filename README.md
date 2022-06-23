@@ -86,5 +86,9 @@
     ```bash
     git checkout (main 등 가고자하는 브랜치명)
     ```
+    - origin 저장소의 main 브랜치로 push하기
+    ```bash
+    git push origin main
+    ```
 ## material 
 - https://www.yalco.kr/@git-github-dive/5-2/
