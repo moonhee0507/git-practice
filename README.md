@@ -184,6 +184,13 @@
     ```bash
     git push origin main
     ```
+    - a 브랜치 작업 중 main 브랜치 내용이 수정되었을 때 a 브랜치에 main 브랜치 반영하기
+    ```bash
+    git checkout a
+    git rebase main
+    git pull
+    git push origin a
+    ```
 <br>   
    
 ## material 
