@@ -191,6 +191,22 @@
     git pull
     git push origin a
     ```
+    - 커밋하기 싫은 내용 임시 저장하기
+    ```bash
+    git stash
+    
+    // stash 목록 확인
+    git stash list
+    
+    // 가장 최근 stash 가져오기
+    git stash apply
+    
+    // 특정 stash 가져오기(ex. stash@{2})
+    git stash apply [stash 이름]
+    
+    // stash 가져오고 동시에 스택에서 stash 제거
+    git stash pop
+    ```
 <br>   
    
 ## material 
