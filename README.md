@@ -207,6 +207,10 @@
     // stash 가져오고 동시에 스택에서 stash 제거
     git stash pop
     ```
+    - main 브랜치로 브랜치명 변경
+    ```bash
+    git branch -m master main
+    ```
 <br>   
    
 ## material 
